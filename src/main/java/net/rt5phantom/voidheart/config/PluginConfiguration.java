@@ -1,4 +1,8 @@
-package net.rt5phantom.voidheart;
+/*
+    Created in April 2022 as part of the Void Heart project by owner RT5Phantom. Subject to copy right under the Eclipse Public License, see https://github.com/RT5Phantom/VoidHeart/blob/master/LICENSE for more details.
+*/
+
+package net.rt5phantom.voidheart.config;
 
 import net.rt5phantom.voidheart.exception.AlreadyExistingOptionException;
 import net.rt5phantom.voidheart.exception.OptionDoesNotExistException;
@@ -7,6 +11,8 @@ import java.util.ArrayList;
 
 /**
  * An object that allows a plugin developer to store and read their plugin's configuration settings.
+ * @author RT5Phantom
+ * @since v2.0.0
  */
 public class PluginConfiguration
 {

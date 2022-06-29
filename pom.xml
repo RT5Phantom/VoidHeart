@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.rt5phantom</groupId>
-    <artifactId>voidheart</artifactId>
-    <version>2.1.0-RELEASE</version>
+    <artifactId>VoidHeart</artifactId>
+    <version>2.1.1-SNAPSHOT</version>
 
 
     <packaging>jar</packaging>
 
-    <name>Voidheart</name>
+    <name>VoidHeart</name>
 
     <description>
         A Spigot-API based framework project designed to provide objects, classes, and utilities in order to make it easier to develop high quality plugins for Minecraft servers

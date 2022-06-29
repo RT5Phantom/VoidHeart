@@ -1,7 +1,13 @@
+/*
+    Created in June 2022 as part of the Void Heart project by owner RT5Phantom. Subject to copy right under the Eclipse Public License, see https://github.com/RT5Phantom/VoidHeart/blob/master/LICENSE for more details.
+*/
+
 package net.rt5phantom.voidheart.exception;
 
 /**
  * A custom exception which is used when an instance of PluginConfiguration cannot find an option it is told exists.
+ * @author RT5Phantom
+ * @since v2.1.0
  */
 public class OptionDoesNotExistException extends Exception
 {

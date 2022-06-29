@@ -1,3 +1,7 @@
+/*
+    Created in April 2022 as part of the Void Heart project by owner RT5Phantom. Subject to copy right under the Eclipse Public License, see https://github.com/RT5Phantom/VoidHeart/blob/master/LICENSE for more details.
+*/
+
 package net.rt5phantom.voidheart;
 
 import net.md_5.bungee.api.ChatColor;
@@ -10,6 +14,8 @@ import java.util.logging.Logger;
 /**
  * An extended version of Spigot's default JavaPlugin class that creates additional methods and variables aimed at making plugin development easier.
  * This augmented version of the Java Plugin class adds the following features; plugin tags, console & player messengers, and debug logging ease of use.
+ * @author RT5Phantom
+ * @since v1.0.0
  */
 public abstract class AugmentedJavaPlugin extends JavaPlugin
 {
@@ -46,7 +52,12 @@ public abstract class AugmentedJavaPlugin extends JavaPlugin
     // ============================================== //
     // ============= Console Messengers ============= //
     // ============================================== //
-
+    /**
+     * Sends a message to the console from the plugin, which can include chat formatting codes signaled by an "&" sign without the plugin tag.
+     * Please note that the "§" sign, unicode character code 'U+00A7', is translated into color codes by default, so it can also be used.
+     * Refer to 'https://minecraft.fandom.com/el/wiki/Formatting_codes' for the full list of chat formatting codes that you can use in Minecraft's chat system.
+     * @param message The message to be sent to the console.
+     */
     public void messageConsoleRaw(@NotNull String message)
     {
         // Sends the message through the bukkit console sender after translating chat colors
@@ -57,7 +68,7 @@ public abstract class AugmentedJavaPlugin extends JavaPlugin
      * Sends a message to the console from the plugin, which can include chat formatting codes signaled by an "&" sign.
      * Please note that the "§" sign, unicode character code 'U+00A7', is translated into color codes by default, so it can also be used.
      * Refer to 'https://minecraft.fandom.com/el/wiki/Formatting_codes' for the full list of chat formatting codes that you can use in Minecraft's chat system.
-     * @param message The message to be sent to the console
+     * @param message The message to be sent to the console.
      */
     public void messageConsole(@NotNull String message)
     {
@@ -70,19 +81,27 @@ public abstract class AugmentedJavaPlugin extends JavaPlugin
     // ============= Debug Messengers ============= //
     // ============================================ //
     /**
-     * Sends debug info message
-     * @param message
+     * Sends debug info message to the console.
+     * @param message Message to send.
      */
     public void debugInfo(@NotNull String message)
     {
         getLogger().info(message);
     }
 
+    /**
+     * Sends a debug warning message to the console.
+     * @param message Message to send.
+     */
     public void debugWarning(@NotNull String message)
     {
         getLogger().warning(message);
     }
 
+    /**
+     * Sends a debug error message to the console.
+     * @param message Message to send.
+     */
     public void debugError(@NotNull String message)
     {
         getLogger().severe(message);
@@ -94,9 +113,9 @@ public abstract class AugmentedJavaPlugin extends JavaPlugin
     // ============= Player Messengers ============= //
     // ============================================= //
     /**
-     * Sends a message to a player, which can include chat formatting codes
-     * @param player The player that is sent the message
-     * @param message The message sent to the player
+     * Sends a message to a player, which can include chat formatting codes.
+     * @param player The player that is sent the message.
+     * @param message The message sent to the player.
      */
     public void messagePlayer(@NotNull Player player, @NotNull String message)
     {
@@ -105,10 +124,10 @@ public abstract class AugmentedJavaPlugin extends JavaPlugin
     }
 
     /**
-     * Sends a message to a player, which can include chat formatting codes
-     * @param player The player that is sent the message
-     * @param message The message sent to the player
-     * @param pluginTag The plugin tag to attach to the message
+     * Sends a message to a player, which can include chat formatting codes.
+     * @param player The player that is sent the message.
+     * @param message The message sent to the player.
+     * @param pluginTag The plugin tag to attach to the message.
      */
     public void messagePlayer(@NotNull Player player, @NotNull String message, String pluginTag)
     {

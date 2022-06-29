@@ -1,7 +1,13 @@
-package net.rt5phantom.voidheart;
+/*
+    Created in June 2022 as part of the Void Heart project by owner RT5Phantom. Subject to copy right under the Eclipse Public License, see https://github.com/RT5Phantom/VoidHeart/blob/master/LICENSE for more details.
+*/
+
+package net.rt5phantom.voidheart.config;
 
 /**
  * A simple object class that acts as the foundation for a PluginConfiguration object.
+ * @author RT5Phantom
+ * @since v2.0.0
  */
 class ConfigOption
 {

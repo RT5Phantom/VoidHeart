@@ -4,7 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="" />
+    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="2.1.1 Snapshot&#10;- Renamed License to LICENSE&#10;- Fixed some commenting inconsistencies&#10;- Generated Javadocs">
+      <change afterPath="$PROJECT_DIR$/javadocs/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/legal/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/AugmentedJavaPlugin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/config/ConfigOption.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/config/PluginConfiguration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/config/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/config/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/exception/AlreadyExistingOptionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/exception/OptionDoesNotExistException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/exception/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/exception/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/net/rt5phantom/voidheart/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadocs/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/License" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/AugmentedJavaPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/AugmentedJavaPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/ConfigOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/ConfigOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/PluginConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/exception/AlreadyExistingOptionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/exception/AlreadyExistingOptionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/exception/OptionDoesNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/exception/OptionDoesNotExistException.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +121,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Infected Server Naptime" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -137,5 +210,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.1.1 Snapshot&#10;- Renamed License to LICENSE&#10;- Fixed some commenting inconsistencies&#10;- Generated Javadocs" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.1.1 Snapshot&#10;- Renamed License to LICENSE&#10;- Fixed some commenting inconsistencies&#10;- Generated Javadocs" />
   </component>
 </project>

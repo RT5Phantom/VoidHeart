@@ -36,7 +36,7 @@ To install the Void Heart framework into your Spigot Plugin project, follow the 
 *[See this Stack Overflow forum post for more help on adding GitHub repositories as Maven dependencies.](https://stackoverflow.com/questions/20161602/loading-maven-dependencies-from-github)*
 
 ### License
-**The Void Heart project is licensed under the [**Eclipse Public License - v 2.0**](/License) liscense.**
+**The Void Heart project is licensed under the [**Eclipse Public License - v 2.0**](/LICENSE) liscense.**
 
 _The following is prioritized after Void Heart's license. In any case of conflict, the liscense takes precedence over the below guidelines._
 - Forks of Void Heart
