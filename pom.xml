@@ -4,23 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.rt5phantom</groupId>
-    <artifactId>VoidHeart</artifactId>
-    <version>2.1.1-RELEASE</version>
-
-
-    <packaging>jar</packaging>
-
+    <!-- PROJECT PROPERTIES -->
     <name>VoidHeart</name>
-
+    <groupId>net.rt5phantom</groupId>
+    <version>2.1.2-SNAPSHOT</version>
     <description>
         A Spigot-API based framework project designed to provide objects, classes, and utilities in order to make it easier to develop high quality plugins for Minecraft servers
     </description>
+    <url>https://github.com/RT5Phantom/VoidHeart</url>
+
+    <packaging>jar</packaging>
+    <artifactId>VoidHeart</artifactId>
+
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
+    <!-- BUILD -->
     <build>
         <plugins>
             <plugin>
@@ -57,6 +59,8 @@
         </resources>
     </build>
 
+
+    <!-- REPOSITORIES -->
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
@@ -68,6 +72,8 @@
         </repository>
     </repositories>
 
+
+    <!-- DEPENDENCIES -->
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
@@ -81,4 +87,5 @@
             <version>23.0.0</version>
         </dependency>
     </dependencies>
+
 </project>
