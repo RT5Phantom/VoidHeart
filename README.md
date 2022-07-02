@@ -26,7 +26,7 @@ To install the Void Heart framework into your Spigot Plugin project, follow the 
 <dependency>
     <groupId>com.github.rt5phantom</groupId>
     <artifactId>VoidHeart</artifactId>
-    <version>v{Release Number}</version> // For example: <version>v2.1.0</version>
+    <version>{Release Tag}</version> <!-- This should be a release's tag (For example; <version>v2.1.0-RELEASE</version>) -->
 </dependency>
 ``` 
 5. Rebuild your Maven project
