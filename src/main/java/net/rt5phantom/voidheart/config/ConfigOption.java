@@ -9,7 +9,7 @@ package net.rt5phantom.voidheart.config;
  * @author RT5Phantom
  * @since v2.0.0
  */
-class ConfigOption
+class ConfigOption<T>
 {
     // ============================================ //
     // ============= Object Variables ============= //
@@ -38,17 +38,17 @@ class ConfigOption
     /**
      * A variable used to store a config option's value.
      */
-    private String Value;
+    private T Value;
     /**
      * A simple get method used to get the instance of ConfigOption's value.
      * @return Return's the ConfigOption's value.
      */
-    String getValue() { return Value; }
+    T getValue() { return Value; }
     /**
      * A simple set method used to set the instance of ConfigOption's value.
      * @param value The new value of the instance of ConfigOption.
      */
-    void setValue(String value) { Value = value; }
+    void setValue(T value) { Value = value; }
 
 
 
@@ -61,10 +61,10 @@ class ConfigOption
     ConfigOption() {}
     /**
      * A basic constructor for ConfigOption which sets internal properties from inputted data.
-     * @param name
-     * @param value
+     * @param name The name of the ConfigOption
+     * @param value The value of the ConfigOption
      */
-    ConfigOption(String name, String value)
+    ConfigOption(String name, T value)
     {
         Name = name;  // ConfigOption's Name is set to incoming name variable's value.
         Value = value;  // ConfigOption's Value is set to incoming value variable's value.

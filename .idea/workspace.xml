@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="2.1.1 Release&#10;- Renamed 'javadocs' directory to .javadocs&#10;- Finalized the release .jar file">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
+    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/ConfigOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/ConfigOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656515845364</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo">
+      <created>1656772076953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656772076953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.1.1 Snapshot&#10;- Renamed License to LICENSE&#10;- Fixed some commenting inconsistencies&#10;- Generated Javadocs" />
     <MESSAGE value="2.1.1 Release&#10;- Renamed 'javadocs' directory to .javadocs&#10;- Finalized the release .jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.1.1 Release&#10;- Renamed 'javadocs' directory to .javadocs&#10;- Finalized the release .jar file" />
+    <MESSAGE value="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo" />
   </component>
 </project>

@@ -122,7 +122,7 @@ public class PluginConfiguration
 
         if (ReturnedOptionID != -1)  // If the program finds the option
         {
-            return Options.get(ReturnedOptionID).getValue();  // Return that option's name
+            return Options.get(ReturnedOptionID).getName();  // Return that option's name
         }
         else  // If the option isn't found
         {
