@@ -1,0 +1,2 @@
+# Removing Generated JavaDocs from showing up in GitHub's Code Percentages
+.javadocs/* linguist-documentation

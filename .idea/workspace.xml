@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo">
+    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value&#10;- Completed some more JavaDoc's explaining methods">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/ConfigOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/ConfigOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656772076953</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value&#10;- Completed some more JavaDoc's explaining methods">
+      <created>1656981965636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656981965636</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +175,8 @@
     <MESSAGE value="2.1.1 Snapshot&#10;- Renamed License to LICENSE&#10;- Fixed some commenting inconsistencies&#10;- Generated Javadocs" />
     <MESSAGE value="2.1.1 Release&#10;- Renamed 'javadocs' directory to .javadocs&#10;- Finalized the release .jar file" />
     <MESSAGE value="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated POM to make it more Readable&#10;- Added sections&#10;- Sorted project properties&#10;- Added &lt;url&gt; tag to redirect to project repo" />
+    <MESSAGE value="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value" />
+    <MESSAGE value="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value&#10;- Completed some more JavaDoc's explaining methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value&#10;- Completed some more JavaDoc's explaining methods" />
   </component>
 </project>
