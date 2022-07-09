@@ -33,7 +33,7 @@ public class PluginConfiguration
      * @param value The value of the new option.
      * @throws AlreadyExistingOptionException Thrown when trying to add a duplicate-named option.
      */
-    public void addOption(String optionName, String value) throws AlreadyExistingOptionException
+    public void addOption(String optionName, Object value) throws AlreadyExistingOptionException
     {
         if (searchOption(optionName) == false)  // If the program doesn't find a duplicate-named entry in the list
         {
