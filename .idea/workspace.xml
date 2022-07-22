@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="Added .gitattributes&#10;- Created a '.gitattributes' file&#10;- Removed '.javadocs' directory from showing up in GitHub's Code Percentages">
+    <list default="true" id="0d45a8ee-d2b9-4408-9572-8b576f0b32b5" name="Changes" comment="Patched Bata Build&#10;- Fixed PluginConfiguration to accept objects">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_19_R0_1_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/rt5phantom/voidheart/config/PluginConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656982444629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Patched Bata Build&#10;- Fixed PluginConfiguration to accept objects">
+      <created>1657325909943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657325909943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +194,7 @@
     <MESSAGE value="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value" />
     <MESSAGE value="Updated ConfigOption&#10;- Changed Value in ConfigOption to be a Generic rather than a String&#10;- Fixed a bug in the PluginConfiguration which compared the name being searched for to the ConfigOption's value&#10;- Completed some more JavaDoc's explaining methods" />
     <MESSAGE value="Added .gitattributes&#10;- Created a '.gitattributes' file&#10;- Removed '.javadocs' directory from showing up in GitHub's Code Percentages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .gitattributes&#10;- Created a '.gitattributes' file&#10;- Removed '.javadocs' directory from showing up in GitHub's Code Percentages" />
+    <MESSAGE value="Patched Bata Build&#10;- Fixed PluginConfiguration to accept objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patched Bata Build&#10;- Fixed PluginConfiguration to accept objects" />
   </component>
 </project>

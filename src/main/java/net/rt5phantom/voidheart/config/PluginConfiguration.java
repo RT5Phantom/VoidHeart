@@ -7,6 +7,7 @@ package net.rt5phantom.voidheart.config;
 import net.rt5phantom.voidheart.exception.AlreadyExistingOptionException;
 import net.rt5phantom.voidheart.exception.OptionDoesNotExistException;
 
+import javax.swing.text.html.Option;
 import java.util.ArrayList;
 
 /**
@@ -19,7 +20,7 @@ public class PluginConfiguration
     /**
      * An arraylist that stores the current set of ConfigOptions in an instance of this class.
      */
-    private ArrayList<ConfigOption> Options;
+    private ArrayList<ConfigOption> Options = new ArrayList<ConfigOption>();
 
     // ================================================= //
     // ============= Public Facing Methods ============= //
@@ -77,6 +78,11 @@ public class PluginConfiguration
      */
     public Boolean searchOption(String optionName)
     {
+        if (Options == null)
+        {
+            return false;
+        }
+
         // Loop through each option entry until we hit the end of the list
         for (int timesLooped = 0; timesLooped < Options.size(); timesLooped++)
         {
@@ -116,13 +122,13 @@ public class PluginConfiguration
      * @return Returns the value of the option.
      * @throws OptionDoesNotExistException Thrown when trying to get an option that does not exist.
      */
-    public String getOptionValue(String optionName) throws OptionDoesNotExistException
+    public Object getOptionValue(String optionName) throws OptionDoesNotExistException
     {
         int ReturnedOptionID = searchOptionsReturnPlace(optionName);  // Finds the entry of the option
 
         if (ReturnedOptionID != -1)  // If the program finds the option
         {
-            return Options.get(ReturnedOptionID).getName();  // Return that option's name
+            return Options.get(ReturnedOptionID).getValue();  // Return that option's name
         }
         else  // If the option isn't found
         {
@@ -134,6 +140,11 @@ public class PluginConfiguration
      * @return Returns options in the form of an ArrayList of ConfigOption objects.
      */
     public ArrayList<ConfigOption> getAllOptions() { return Options; }
+
+    public void setOption(String optionName, Object value)
+    {
+        Options.get(searchOptionsReturnPlace(optionName)).setValue(value);
+    }
 
 
 
